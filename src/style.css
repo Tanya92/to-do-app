@@ -1,0 +1,39 @@
+h1, p {
+  font-family: Lato;
+}
+.itemDone{
+  text-decoration: line-through;
+}
+.remove{
+height: 20px;
+display: flex;
+margin-left: 5px; 
+}
+i {
+  margin: auto;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+p {
+  min-width: 50px;
+}
+#toDoText{
+  margin: 10px;
+  border: 1px solid black;
+  width: 60%;
+}
+#toDoText.error {
+  border: 2px solid red;
+}
+#addToDo {
+  width: 20%;
+  margin-left: 20px;
+  background-color:lightgreen;
+}
+#toDoContainer {
+  margin:10px;
+  border:1px solid black;
+  width: 380px
+  }
